@@ -9,6 +9,8 @@
             <Label x:Name="LblUsuario"></Label>
             <Label x:Name="LblPassword"></Label>
 
+            <Label x:Name="LblPassword2"></Label>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
