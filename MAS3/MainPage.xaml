@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAS3.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Bienvenido" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Entry x:Name="TxtUsuario" Placeholder="Usurio"></Entry>
+        <Entry x:Name="TxtPass" Placeholder="Password" IsPassword="True"></Entry>
+
+        <Button x:Name="BtnAbrir" Text="Abrir" Clicked="BtnAbrir_Clicked"></Button>
+
+    </StackLayout>
+
+</ContentPage>
